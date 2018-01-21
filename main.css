@@ -1,0 +1,148 @@
+  @charset "utf-8";
+  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  .skip-nav {
+    display: none;
+  }
+  .readable-hidden {
+    background-color: red;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    visibility: hidden;
+  }
+  body {
+    font-family: NanumMyeongjo;
+    background-color: white;
+  }
+  .wrapper {
+    background-color: white;
+    width: 1300px;
+    height: 2880px;
+    margin-left: 70px;
+  }
+  .header {
+    background-color: #515151;
+    width: 1300px;
+    height: 120px;
+  }
+  .logo {
+    position: absolute;
+    top: 46px;
+    left: 180px;
+  }
+  .logotext {
+    width: 46px;
+    height: 22px;
+    font-family: NanumMyeongjo;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: #959595;
+    padding-left: 147px;
+    padding-top: 46px;
+  }
+  .menu {
+    width: 498px;
+    height: 12px;
+    font-family: NanumGothic;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.13;
+    letter-spacing: 1.6px;
+    display: inline;
+    text-align: right;
+    color: #ffffff;
+  }
+  .toparticle {
+    height: 408px;
+    background-color: #b5b5b5;
+  }
+  .main-content {
+    height: 1320px;
+    background-color: beige;
+    padding-top: 47px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .article1 {
+    width: 300px;
+  }
+  .article2 {
+    width: 300px;
+  }
+  .article3 {
+    width: 300px;
+  }
+  /* .box1 {
+    width: 940px;
+    height: 408px;
+    background-color: #959595;
+  } */
+  
+  .article-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 940px;
+    height: 408px;
+    background-color: #959595;
+    position: relative;
+    font-family: NanumMyeongjo;
+    font-size: 25px;
+    text-align: center;
+    color: #5a5e65;
+  }
+  .weekly-post {
+    display: block;
+    list-style: none;
+    width: 189px;
+    height: 65px;
+    font-family: NanumGothic;
+    font-size: 16px;
+  }
+  .map {
+    height: 360px;
+    background-color: pink;
+  }
+  .qna {
+    height: 600px;
+    background-color: white;
+    font-family: NanumGothic;
+    font-size: 25px;
+    text-align: center;
+    color: #5a5e65;
+  }
+  .user-message {
+    left: 180px;
+    width: 940px;
+    height: 240px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #dadee8;
+  }
+  .footer {
+    height: 72px;
+    background-color: #f1f1f1;
+    font-family: NanumGothic;
+    font-size: 16px;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4d4b4a;
+  }
